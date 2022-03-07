@@ -5,8 +5,8 @@ const initialState = {
 
 function graphs (state = initialState, action) { 
   switch(action.type) {
-    case 'ADD_ITEM' : 
-      return state[action.key]
+    case 'UPDATE_GRAPH' : 
+      return state[action.graphKey]
     default: 
       return state
   }
