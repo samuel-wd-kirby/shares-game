@@ -1,7 +1,7 @@
 const initialState = { 
     Apples: 4, 
     Peanuts: 5,
-    Coins: 29 
+    Coins: 50, 
 }
 
 function usersBank (state = initialState, action) { 
