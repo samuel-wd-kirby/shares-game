@@ -4,6 +4,7 @@ function Graph1 () {
 
    return (
    <>
+   <p>tempdata</p>
    </>
   )
 }
